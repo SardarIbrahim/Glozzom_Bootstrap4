@@ -1,0 +1,67 @@
+.navbar .nav-link {
+  text-transform: uppercase;
+  font-size: 14px;
+  padding: 0 1rem !important;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.navbar .nav-item.active {
+  border-left: #ddd 3px solid;
+}
+
+.carousel-item {
+  height: 500px;
+}
+
+.carousel-image-1 {
+  background: url("../img/image1.jpg");
+  background-size: cover;
+}
+.carousel-image-2 {
+  background: url("../img/image2.jpg");
+  background-size: cover;
+}
+.carousel-image-3 {
+  background: url("../img/image3.jpg");
+  background-size: cover;
+}
+
+#home-head {
+  position: relative;
+  min-height: 200px;
+  width: 100%;
+  background: url("../img/lights.jpg");
+  background-repeat: no-repeat;
+  text-align: center;
+  background-attachment: fixed;
+  color: white;
+}
+
+.dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+#video {
+  position: relative;
+  min-height: 200px;
+  width: 100%;
+  background: url("../img/media.jpg");
+  background-repeat: no-repeat;
+  background-position: 0 -300px;
+  text-align: center;
+  background-attachment: fixed;
+  color: white;
+}
+
+#video a {
+  color: white;
+}
